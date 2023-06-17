@@ -3,7 +3,7 @@ import './Featured.scss'
 
 const Featured = () => {
   return (
-    <div className='featured'>featured
+    <div className='featured'>
     <div className="container">
         <div className="left">
             <h1>Find the right <span>freelance service</span>, right away</h1>

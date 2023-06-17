@@ -1,19 +1,21 @@
 import React from 'react'
-import Slider from 'react-slick'
 import './Slide.scss'
+import Slider from "infinite-react-carousel";
 
-
-
-const Slide = ({ children, slidesToShow, arrowsScroll, speed, infinite,  }) => {
+const Slide = ({ children, slidesToShow, arrowsScroll }) => {
   return (
     <div className="slide">
       <div className="container">
-        <Slider slidesToShow={slidesToShow} arrowsScroll={arrowsScroll} speed={speed} infinite={infinite} >
+        <Slider slidesToShow={slidesToShow} arrowsScroll={arrowsScroll}>
           {children}
         </Slider>
       </div>
     </div>
   );
 };
+  
+    
 
-export default Slide
+
+
+export default Slide;

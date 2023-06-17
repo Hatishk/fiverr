@@ -7,36 +7,53 @@
       width: 1400px;
       position: relative;
     }
-    .slick-initialized {
-        position: static;
-      }
-
-
-
-    .slick-prev,
-    .slick-next {
+    .carousel-initialized {
+      position: static;
+    }
+  
+    .carousel-prev,
+    .carousel-next {
       width: 50px;
       height: 50px;
       background-color: rgb(243, 243, 243);
-      color: black;
       border-radius: 50%;
       position: absolute;
       top: 0;
       bottom: 0;
       margin: auto;
-      z-index: 4;
     }
-    .slick-prev:before, .slick-next:before {
-        font-family: 'slick';
-        font-size: 20px;
-        line-height: 1;
-        opacity: .75;
-        color: black;
+  
+    .carousel-prev {
+      left: -25px;
     }
-    .slick-prev {
-      left: -20px;
+  }.slide {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+    
+    .container {
+      width: 1400px;
+      position: relative;
     }
-    .slick-next{
-        right : 2px
+  
+    .carousel-initialized {
+      position: static;
+    }
+  
+    .carousel-prev,
+    .carousel-next {
+      width: 50px;
+      height: 50px;
+      background-color: rgb(243, 243, 243);
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  
+    .carousel-prev {
+      left: -25px;
     }
   }
+  
